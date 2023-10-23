@@ -1,0 +1,79 @@
+header {
+  padding: 20px;
+}
+header .wrap {
+  background-color: #eee;
+  box-sizing: border-box;
+  padding: 20px 70px;
+}
+header .wrap nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .wrap nav div{
+  gap: 20px;
+  font-size: 11px;
+  align-items: center;
+  font-weight: bold;
+}
+header .wrap nav h1 {
+}
+header .wrap nav h1 a {
+  color: #109AD6;
+  font-size: 20px;
+}
+header .wrap nav h1 a span {
+  background-image: url(../img/logo_1.png);
+  font-size: 0;
+  width: 62px;
+  height: 42px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  background-position: center;
+  margin-left: 15px;
+}
+header .wrap nav ul.gnb {
+  font-size: 18px;
+}
+header .wrap nav ul.gnb li {
+}
+header .wrap nav ul.gnb li a {
+  display: block;
+  padding: 0 20px;
+  line-height: 3;
+  border-top: 2px solid transparent;
+}
+header .wrap nav ul.gnb li a:hover{
+  color: #109AD6;
+  border-top: 2px solid #109AD6;
+}
+header .wrap nav div ul.lang {
+}
+header .wrap nav div ul.lang li {
+}
+header .wrap nav div ul.lang li a {
+  padding: 0 6px;
+  line-height: 2;
+  display: block;
+  position: relative;
+}
+header .wrap nav div ul.lang li a:hover{
+  color: #109AD6;
+}
+header .wrap nav div ul.lang li:nth-child(1) a::after,
+header .wrap nav div ul.lang li:nth-child(2) a::after{
+  content: "";
+  border-right: 1px solid #999;
+  height: 8px;
+  display: inline-block;
+  position: absolute;
+  top: calc(50% - 4px);
+  right: 0;
+}
+header .wrap nav div .search{
+}
+header .wrap nav div .search button {
+}

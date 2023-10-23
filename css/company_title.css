@@ -1,0 +1,60 @@
+div#subtitle {
+  background-image: url(../img/company_title.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 490px;
+  height: calc(100% + 66px);
+}
+div#subtitle .wrap {
+  position: relative;
+}
+div#subtitle .wrap hgroup {
+  color: white;
+  position: relative;
+}
+div#subtitle .wrap hgroup h2 {
+  font-size: 30px;
+  letter-spacing: 0.4em;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+div#subtitle .wrap hgroup h3 {
+  font-size: 90px;
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+div#subtitle .wrap hgroup::after{
+  content: '';
+  display: block;
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  background: #fff;
+}
+div#subtitle .wrap p{
+  color: white;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+@keyframes updown{
+  0%{ /* 시작 */
+    transform: translateY(0);
+  }
+  50%{ 
+    transform: translateY(50px);
+  }
+  100%{ /* 끝 */
+    transform: translateY(0);
+  }
+}
+@keyframes one{
+  100%{
+    width: 100%;
+  }
+}

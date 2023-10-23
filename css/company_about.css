@@ -1,0 +1,258 @@
+#about section {
+
+}
+section .wrap {
+    
+}
+section .wrap nav.breadcrumb {
+
+}
+section .wrap nav.breadcrumb ol {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+section .wrap nav.breadcrumb ol li.home a{
+  font-size: 0;
+  background-image: url(../img/home.svg);
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-size: cover;
+}
+section .wrap nav.breadcrumb ol li {
+  padding-right: 10px;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+}
+section .wrap nav.breadcrumb ol li:nth-child(2)::after{
+  content: "";
+  width: 14px;
+  height: 21px;
+  display: inline-block;
+  background-image: url(../img/arrow_right.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section .wrap nav.breadcrumb ol li:nth-child(2) a:hover{
+  color: #1c9ad6;
+}
+section .wrap nav.breadcrumb ol li a {
+  font-size: 15px;
+}
+section .wrap article {
+  position: relative;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+section .wrap article:nth-of-type(1){
+  padding-top: 100px;
+}
+section .wrap article:nth-of-type(2){
+  padding-left: 37%;
+  box-sizing: border-box;
+  margin-top: 284px;
+  margin-bottom: 200px;
+  padding-top: 160px;
+}
+/* section .wrap article:nth-of-type(3){
+  content: "";
+  background-image: url(../img/company_about03.jpg);
+  position: absolute;
+  right: 0px;
+  top: -115px;
+  width: 588px;
+  height: 708px;
+} */
+section .wrap article::after{
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  background-position: center;
+}
+section .wrap article:nth-of-type(1)::after{
+  content: "";
+  background-image: url(../img/company_about01.jpg);
+  position: absolute;
+  right: 0px;
+  top: -115px;
+  width: 588px;
+  height: 708px;
+}
+section .wrap article:nth-of-type(2)::before{
+  content: "";
+  background-image: url(../img/company_about02.jpg);
+  height: 636px;
+  width: 486px;
+  display: block;
+  left: 0;
+  top: 0px;
+  position: absolute;
+}
+section .wrap article:nth-of-type(3)::after{
+  content: "";
+  background-image: url(../img/company_about03.jpg);
+  position: absolute;
+  right: 0px;
+  top: -100px;
+  width: 588px;
+  height: 708px;
+}
+section .wrap article hgroup{
+
+}
+section .wrap article h4 {
+  font-size: 30px;
+  font-weight: 300;
+}
+section .wrap article h5 {
+  font-size: 65px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+section .wrap article p.p{
+
+  max-width: 1700px;
+}
+
+/* 회사 기본 정보 */
+section .wrap article.basicinfo {
+
+  max-width: 1700px;
+  margin-top: 380px;
+}
+section .wrap article.basicinfo .banner{
+  margin-top: 250px;
+  background-image: url(../img/company_about04.jpg);
+  height: 757px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+section .wrap article.basicinfo .banner figure{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+section .wrap article.basicinfo .banner figure img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+section .wrap article.basicinfo h4{
+
+}
+section .wrap article.basicinfo ul{
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+  margin-top: -100px;
+  height: 558px;
+  position: relative;
+}
+section .wrap article.basicinfo ul li.p{
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 3;
+  border-bottom: 1px solid #ddd;
+}
+section .wrap article.basicinfo ul li.p:nth-of-type(1){
+  border-top: 1px solid;
+}
+section .wrap article.basicinfo ul li.p strong{
+  width: 180px;
+  padding-left: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* 회사 히스토리 */
+section .wrap article.history {
+
+}
+section .wrap article.history h4{
+  text-align: center;
+  font-size: 55px;
+  font-weight: 200;
+  letter-spacing: 4px;
+  padding-bottom: 50px;
+}
+section .wrap article.history ul.list{
+}
+section .wrap article.history ul.list li{
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  width: calc(25% - 0.75px);
+  background-color: #f1f1f1;
+  border-right: 1px solid white;
+  /*! height: 345px; */
+}
+section .wrap article.history ul.list li time{
+  font-size: 17px;
+  color: #222;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+section .wrap article.history ul.list li::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 345px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section .wrap article.history ul.list li:nth-child(1)::before{
+  background-image: url(../img/company_about05.jpg);
+}
+section .wrap article.history ul.list li:nth-child(2)::before{
+  background-image: url(../img/company_about06.jpg);
+}
+section .wrap article.history ul.list li:nth-child(3)::before{
+  background-image: url(../img/company_about07.jpg);
+}
+section .wrap article.history ul.list li:nth-child(4)::before{
+  background-image: url(../img/company_about08.jpg);
+}
+section .wrap article.history ul.list li p{
+  color: #666;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+section .wrap article.history ul.detail{
+
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+section .wrap article.history ul.detail li{
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 30% auto;
+  border-bottom: 1px solid #ddd;
+}
+section .wrap article.history ul.detail li h5{
+  font-size: 37px;
+  font-weight: 400;
+}
+section .wrap article.history ul.detail li ul.detaillist{
+
+}
+section .wrap article.history ul.detail li ul.detaillist li{
+  padding: 10px 0;
+  display: flex;
+  color: #666;
+  font-size: 16px;
+  border: none;
+}
+section .wrap article.history ul.detail li ul.detaillist li time{
+  margin-right: 30px;
+  color: #222;
+  font-weight: 500;
+}

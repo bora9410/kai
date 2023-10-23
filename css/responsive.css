@@ -1,0 +1,506 @@
+@media screen and (max-width:1140px){
+  header{
+    top: 0px;
+    animation-name: none;
+  }
+  header .wrap{
+    background-color: transparent;
+    width: 100%;
+    animation-name: none;
+  }
+  header .wrap nav h1{
+    background-color: transparent;
+  }
+  header .wrap nav h1 a{
+    /*! color: white; */
+    font-size: 0;
+  }
+  header .wrap nav h1 a span{
+  color: white;
+  }
+  header .wrap nav .gnb{
+    display: none;
+  }
+  header .wrap nav > div:nth-of-type(1){
+    display: none;
+  }
+  div.wgnb{
+    display: none;
+  }
+  header .wrap nav a.ham{
+    display: flex;
+  }
+/*  title 영역  */
+  div#title{
+    min-height: 100%;
+    height: 100%;
+  }
+  .wrap{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  div#title .wrap .txt_container h2{
+    font-size: 19px;
+    padding-bottom: 8px;
+  }
+  div#title .wrap .txt_container h3{
+    font-size: 32px;
+  }
+  div#title .wrap a.scroll{
+    transform: scale(0.7);
+  }
+  
+/*  business 영역  */
+  main #business .wrap{
+    padding-top: 50px;
+  }
+  .paddingB100{
+     padding-bottom: 30px; 
+  }
+  main #business .wrap article{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  main #business .wrap article h3{
+    order: 2;
+    font-size: 16px;
+    padding-top: 12px;
+  }
+  main #business .wrap article h3 span{
+    font-size: 28px;
+  }
+  main #business .wrap article:nth-of-type(2) h3 {
+    color: black;
+  }
+  main #business .wrap article p.p{
+    order: 3;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+  main #business .wrap article:nth-of-type(2) p.p {
+    color: #666;
+  }
+  main #business .wrap article a.more{
+    order: 4;
+    transform: scale(0.8);
+    transform-origin: 0 50%;
+    color: black;
+  }
+  main #business .wrap article:nth-of-type(1)::after{
+    position: static;
+    order: 1;
+    width: 100%;
+    height: 61.403vw;
+  }
+  main #business .wrap article:nth-of-type(2){
+    padding: 50px 0;
+  }
+  main #business .wrap article:nth-of-type(2)::before{
+    position: static;
+    width: 100%;
+    height: 59.649122vw;
+  }
+  main #business .wrap article:nth-of-type(2)::after{
+    display: none;
+  }
+  main #business .wrap article:nth-of-type(3){
+    padding: 10.34385964912281vw 0;
+    padding-left: 15px;
+    height: 300px;
+  }
+  main #business .wrap article a.more:hover{
+    color: white;
+  } 
+  main #business .wrap article:nth-of-type(3) a.more{
+    color: white;
+  }
+  main #business .wrap article:nth-of-type(3) a.more:hover{
+    color: black;
+  } 
+  main #business .wrap article a.more::after{
+    content: "";
+    background-color: black;
+    width: 0px;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    transition: all 0.5s;
+    transform: skewX(-30deg);
+    transform-origin: 0 0;
+    z-index: -1;
+  }
+   main #business .wrap article:nth-of-type(3) a.more::after{
+    content: "";
+    background-color: white;
+  }
+/*  green 영역  */
+  #green .wrap h2{
+    font-size: 29px;
+  }
+  #green .wrap ul{
+    flex-direction: column;
+  }
+  #green .wrap ul li{
+    width: auto;
+    /*! padding: 7.54385964912281vw 0; */
+  }
+  #green .wrap ul li::before{
+    height: 46.84210526315789vw;
+  }
+  #green .wrap ul li h3{
+    font-size: 20px;
+  }
+  #green .wrap ul li p{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  #green .wrap a.siteview{
+  margin-left: 0;
+  transform: scale(0.7);
+  transform-origin: 0% 100%;
+  }
+  .paddingT100{
+    padding-top: 20px;
+  }
+  .marginB50{
+    /*! margin-bottom: 15px; */
+  }
+  
+/* about 영역   */
+  #about .wrap h2{
+    font-size: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  #about .wrap ul{
+    flex-direction: column;
+    margin-bottom: 20px;
+    row-gap: 40px;
+    padding-bottom: 100px;
+  }
+  #about .wrap ul li{
+    width: auto;
+  }
+  #about .wrap ul li figure{
+    transform: scale(0.7);
+  }
+  #about .wrap ul li:nth-child(2){
+    border: none;
+  }
+  #about .wrap ul li h3{
+    line-height: 2;
+    font-size: 17px;
+    padding-bottom: 10px;
+    }
+   #about .wrap ul li p{
+    font-size: 14px;
+  }
+/*  recruit 영역  */
+  #recco{
+    margin-top: auto;
+  }
+  #recco .wrap{
+    flex-direction: column;
+  }
+  #recco .wrap article{
+    width: auto;
+  }
+  #recco .wrap article.recruit{
+  }
+  #recco .wrap article.recruit .recruit-container h3 {
+    padding: 80px 0px 100px 100px;
+  }
+  #recco .wrap article.recruit .recruit-container h4{
+    margin: 8.771vw 0 2.631vw 8.771vw;
+  }
+  #recco .wrap article.recruit p{
+    font-size: 15px;
+  }
+  #recco .wrap article.recruit > :not(.recruit-container){
+    margin-left: 25px !important;
+  }
+  #recco .wrap article.recruit a{
+    margin-top: 5px;
+    margin-bottom: 35px;
+  }
+  #recco .wrap article.recruit::before{
+/*     height: 98.403vw;
+    width: 41.33333333333333vw;
+    background-size: cover; */
+    display: none;
+  }
+  #recco .wrap article.recruit::after{
+    height: 45.84vw;
+  }
+  #recco .wrap article.recruit .corp-container h3{
+    padding: 15.790vw 0 15.790vw 8.771vw;
+  }
+  #recco .wrap article.corp{
+   height: 88.543vw;
+    padding-bottom: 20px;
+  }
+  #recco .wrap article.corp::before{
+  }
+  #recco .wrap article.corp .corp-container h3{
+  font-size: 30px;
+  }
+  #recco .wrap article.corp .corp-container h4{
+    font-size: 15px;
+  }
+/*  news 영역  */
+  #news div.wrap h2{
+    font-size: 30px;
+  }
+  #news div.wrap article{
+  }
+  #news div.wrap article a{
+    display: flex;
+    flex-direction: column;
+  }
+  #news div.wrap article a h3{
+    order: 1;
+    font-size: 17px;
+  }
+  #news div.wrap article a h3 span{
+    transform: scale(0.8);
+    margin-right: 0;
+  }
+  #news div.wrap article a p{
+    order: 2;
+  }
+  #news div.wrap article a time{
+    order: 3;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 13px;
+    color: #666;
+    padding-bottom: 20px;
+  }
+  #news div.wrap article a time span{
+    font-size: inherit;
+    margin-left: -15px;
+  }
+  #news div.wrap article a > span{
+    display: none;
+  }
+  #news div.wrap > a.list{
+    transform: scale(0.8);
+  }
+/* stock 영역 */
+  #stockir .wrap{
+    flex-direction: column;
+  }
+  #stockir .wrap article{
+    width: auto;
+  }
+  #stockir .wrap article.stock{
+    border: none;
+    padding-right: initial;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  #stockir .wrap article.stock h3{
+    padding-bottom: 20px;
+  }
+  #stockir .wrap article.ir{
+    padding-left: initial;
+    padding-top: 27px;
+  }
+  #stockir .wrap article.ir h3{
+    padding-bottom: 15px;
+  }
+  #stockir .wrap article.ir ul li a{
+    font-size: 14px;
+    line-height: 2;
+  }
+/*  office 영역  */
+  #office .wrap{
+    padding: 0;
+  }
+  #office .wrap ul{
+  height: 28.5087vw;
+  }
+  #office .wrap ul li{
+    width: 100%;
+  }
+  #office .wrap ul li:hover{
+    background-size: 200%;
+  }
+  #office .wrap ul li a{
+    height: 28.5087vw;
+  }
+  #office .wrap ul li a .office-container h3{
+    font-size: 13px;
+  }
+  #office .wrap ul li a .office-container h4{
+    font-size: 14px;
+  }
+  #office .wrap ul li a span.arrow img{
+    width: 3.25vw;
+    height: 3.25vw;
+  }
+/* footer 영역 */
+  footer .wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  footer .wrap ul.fnb{
+    order: 1;
+  }
+  footer .wrap ul.fnb li a{
+    font-size: 13px;
+  }
+  footer .wrap ul.fnb li:last-child a{
+    padding-right: 0;
+  }
+  footer .wrap address{
+    order: 3;
+    font-size: 13px;
+    width: 282px;
+    line-height: 2;
+  } 
+  footer .wrap p.p.copyright{
+    order: 4;
+    font-size: 10px;
+  }
+  footer .wrap div.corp{
+    order: 2;
+  }
+  footer .wrap div.corp ul{
+    display: flex;
+    justify-content: center;
+    /*! gap: 10px; */
+    transform: scale(0.85);
+  }
+  footer .wrap div.corp ul li{
+    padding-right: 10px;
+  }
+  footer .wrap div.corp ul li a{
+  margin: 0;
+  }
+  footer .wrap div.corp ul li a img.logo{
+    padding: 0;
+    width: 50px;
+  }
+  footer .btop{
+    display: none;
+  }
+}
+
+@media screen and (min-width:1141px) and (max-width:1600px){
+/* header 영역 */
+  header{
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  header .wrap{
+    padding: 20px;
+  }  
+  header .wrap nav h1 a{
+    font-size: 15px;
+  }
+  header .wrap nav h1 a span{
+    width: 40px;
+    height: 20px;
+  }
+  header .wrap nav .gnb li a{
+    padding: 0px 23px;
+    font-size: 16px;
+  }
+  header .wrap nav div.flex .lang li a{
+    padding: 0 10px;
+  }
+  
+/* business 영역 */
+  main #business .wrap{
+    padding-top: 9.375vw;
+  }
+  main section:not(#office) .wrap{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  main #business .wrap article{
+    padding: 6.25vw 0;
+  }
+  main #business .wrap article:nth-of-type(1)::after{
+    width: 50.75vw;
+    height: 60.75vw;
+    top: -200px;
+  }
+  main #business .wrap article:nth-of-type(2){
+    padding-top: 20.5vw;
+    padding-bottom: 12.5vw;
+    padding-left: 60%;
+  }
+  main #business .wrap article:nth-of-type(2)::before{
+  height: 55.75vw;
+  width: 40.75vw;
+  left: 0;
+  top: -19px;
+  }
+  main #business .wrap article:nth-of-type(2)::after{
+    height: 56.75vw;
+    width: 70.916vw;
+    right: -40px;
+    top: 0;
+  }
+  main #business .wrap article:nth-of-type(3){
+    padding-top: 19.375vw;
+    padding-bottom: 10.375vw;
+    padding-left: 40px;
+  }
+  .more{
+    border: 1px solid white;
+    color: white;
+  }
+  main #business .wrap article:nth-of-type(1) a.more{
+    color: black;
+    border: 1px solid black;
+  }
+  main #business .wrap article:nth-of-type(1) a.more:hover{
+    color: white;
+  }
+  main #business .wrap article:nth-of-type(1) a.more::after{
+    background-color: black;
+  }
+  
+/* recco 영역 */  
+  #recco .wrap article.recruit .recruit-container h3{
+    padding: 11.25vw 0px 11.25vw 6.25vw;
+  }
+  #recco .wrap article.recruit::before{
+    width: 22.18vw;
+    height: 52.8vw;
+    top: -30px;
+  }
+  #recco .wrap article.recruit .recruit-container h4{
+    margin: 6.25vw 0 0.93vw 6.25vw;
+  }
+  #recco .wrap article.recruit > :not(div.recruit-container){
+    margin-left: 6.25vw;
+  }
+/* office 영역 */  
+  #office .wrap ul{
+    height: 20.3125vw;
+  }
+  #office .wrap ul li a{
+    height: 24.3125vw;
+  }
+  #office .wrap ul li:hover{
+    background-size: 130%;
+  }
+/* footer 영역 */ 
+  footer .wrap{
+    padding: 0 40px; 
+  }
+  footer .wrap ul.fnb{
+    padding-top: 4.56vw;
+  }
+
+}
+  

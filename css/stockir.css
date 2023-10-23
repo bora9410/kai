@@ -1,0 +1,71 @@
+#stockir {
+  
+}
+#stockir .wrap {
+  max-width: 1200px;
+}
+#stockir .wrap h2 {
+  visibility: hidden;
+}
+#stockir .wrap article {
+  width: calc(100% / 2);
+}
+#stockir .wrap article h3{
+
+}
+#stockir .wrap article.stock {
+  border-right: 1px solid #ddd;
+  padding-right: 40px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+#stockir .wrap article.stock h3 {
+  order: 1;
+  grid-column: 1 / span 2;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+#stockir .wrap article.stock h4.price {
+  order: 3;
+  grid-row: 2 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ff1282;
+  font-weight: 200;
+}
+#stockir .wrap article.stock time {
+  order: 2;
+  text-align: right;
+  color: #666;
+  font-size: 14px;
+}
+#stockir .wrap article.stock h5.up {
+  order: 4;
+  text-align: right;
+  color: #666;
+}
+#stockir .wrap article.ir {
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+#stockir .wrap article.ir h3 {
+  
+}
+#stockir .wrap article.ir ul {
+  
+}
+#stockir .wrap article.ir ul li {
+  
+}
+#stockir .wrap article.ir ul li a {
+  display: flex;
+  justify-content: space-between;
+}
+#stockir .wrap article.ir ul li a time {
+  
+}

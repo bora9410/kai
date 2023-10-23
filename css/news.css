@@ -1,0 +1,127 @@
+#news {
+}
+#news div.wrap {
+  max-width: 1200px;
+}
+#news div.wrap h2 {
+  font-weight: 300;
+}
+#news div.wrap article {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#news div.wrap article a {
+  display: grid;
+  grid-template-columns: 100px 880px 90px;
+  grid-template-rows: 25px auto auto;
+  row-gap: 12px;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+#news div.wrap article a:hover{
+  border-bottom: 1px solid #109AD6; 
+} 
+#news div.wrap article a h3 {
+  order: 2;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+} 
+#news div.wrap article a h3 span{
+  border: 1.9px solid #222;
+  color: #222;
+  font-size: 16px;
+  display: inline-block;
+  width: 60px;
+  height: 28px;
+  text-align: center;
+  line-height: 1.8;
+  margin-right: 15px;
+  font-weight: 400;
+}
+#news div.wrap article a p {
+  order: 4;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#news div.wrap article a time {
+  order: 1;
+  grid-row: 1 / span 3;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+  gap: 20px;
+  color: #6C6767;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  transition: all 1s;
+}
+#news div.wrap article a:hover time{
+  color: #109AD6;
+}
+#news div.wrap article a span.watchmore {
+  font-size: 40px;
+  order: 3;
+  transform: translateY(50%);
+  transition: all 1s;
+  cursor: pointer;
+}
+#news div.wrap article span.watchmore img {
+  width: 45px;
+  height: 45px;
+}
+/* #news div.wrap article a:hover > span{
+  border-color: #109AD6;
+}
+#news div.wrap article a > span::before{
+  transition: all 1s;
+}
+#news div.wrap article a:hover > span::before{
+  border-color: #109AD6;
+} */
+
+#news div.wrap > a.list {
+  border: 1px solid;
+  width: 80px;
+  line-height: 4;
+  text-align: center;
+  font-size: 13px;
+  position: relative;
+  transition: all 0.6s;
+  overflow: hidden;
+}
+#news div.wrap > a.list::before{
+  content: "";
+  background-image: url(../img/menu.svg);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-size: contain;
+  margin-right: 5px;
+  vertical-align: -2px;
+}
+#news div.wrap > a.list:hover::before{
+  background-image: url(../img/menu2.svg);
+}
+#news div.wrap > a.list:hover{
+  color: white;
+}
+#news div.wrap > a.list::after{
+  content: "";
+  display: inline-block;
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: black;
+  transition: all 0.6s;
+  transform: skewX(-30deg);
+  transform-origin: 0 0;
+  z-index: -1;
+}
+#news div.wrap > a.list:hover::after{
+  width: 138%;
+}

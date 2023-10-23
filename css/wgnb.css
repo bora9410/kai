@@ -1,0 +1,44 @@
+div.wgnb {
+  position: absolute;
+  left: 0;
+  top: 93px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  display: none;
+}
+div.wgnb .center {
+  width: 826px;
+  margin: 0 auto;
+  transform: translateX(6px);
+  text-align: center;
+}
+div.wgnb .center .wsub {
+  width: 132.5px;
+  padding: 25px 0;
+}
+div.wgnb .center .wsub:not(:last-child){
+  border-right: 1px solid rgba(237, 239, 241, .05);
+}
+div.wgnb .center .wsub:nth-child(3) {
+  width: 163.8px;
+}
+div.wgnb .center .wsub h2 {
+}
+div.wgnb .center .wsub ul {
+}
+div.wgnb .center .wsub ul li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 20px;
+}
+div.wgnb .center .wsub ul li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2.5;
+}
+div.wgnb .center .wsub ul li a:hover{
+  font-weight: 500;
+  text-decoration: underline;
+}

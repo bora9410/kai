@@ -1,0 +1,42 @@
+#about {
+
+}
+
+#about .wrap {
+  background-color: #F8F8F8;
+}
+
+#about .wrap h2 {
+  margin-bottom: 80px;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+#about .wrap ul{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 200px;
+}
+  
+#about .wrap ul li {
+  width: calc(100% / 3);
+}
+#about .wrap ul li figure{
+  
+}
+#about .wrap ul li:nth-child(2) {
+  border-right: 1px solid #DFDFDF;
+  border-left: 1px solid #DFDFDF;
+}
+
+#about .wrap ul li h3 {
+  line-height: 4;
+  transform: translateY(6px);
+}
+
+#about .wrap ul li p {
+}
+
+#about .wrap ul li p span {
+}

@@ -1,0 +1,121 @@
+#recco {
+  margin-top: -170px;
+}
+
+#recco .wrap{
+  max-width: 1200px;
+}
+#recco .wrap h2{
+  visibility: hidden;
+}
+#recco .wrap article {
+  width: calc(100% / 2);
+  /*! border: 1px solid; */
+  position: relative;
+  padding-bottom: 100px;
+}
+
+#recco .wrap article.recruit{
+  position: relative;
+}
+#recco .wrap article.recruit::before{
+  content: "";
+  display: block;
+  background-image: url(../img/recruit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 323px;
+  height: 693px;
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+
+#recco .wrap article.recruit::after{
+  content: "";
+  width: 100%;
+  height: 363px;
+  display: block;
+  background-color: rgba(255,255,255,0.8);
+  position: absolute;
+  bottom: 0;
+}
+#recco .wrap article.recruit .recruit-container {
+}
+#recco .wrap article.recruit .recruit-container h3 {
+  background-color: #eee;
+  padding: 180px 0px 100px 100px;
+  font-weight: 300;
+  font-size: 50px;
+  color: #4b4b4b;
+}
+#recco .wrap article.recruit .recruit-container h4 {
+  margin: 70px 0 15px 100px;
+  position: relative;
+  z-index: 1;
+}
+
+#recco .wrap article.recruit>*:not(div.recruit-container){
+  margin-left: 100px;
+}
+
+#recco .wrap article.recruit p {
+  line-height: 1.8;
+  position: relative;
+  z-index: 1;
+}
+
+#recco .wrap article.recruit a.watchmore {
+  /*! display: block; */
+  margin-bottom: 100px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+  color: #aaa;
+}
+#recco .wrap article.recruit a.watchmore img{
+  width: 40px;
+  height: 40px;
+  padding-top: 15px;
+}
+#recco .wrap article.corp {
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+  background-image: url(../img/corporate.jpg);
+  background-size: cover;
+}
+
+#recco .wrap article.corp::before{
+  content: "";
+  border: 1px solid white;
+  position: absolute;
+  display: block;
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+  left: calc(40px / 2);
+  top: calc(40px / 2);
+}
+
+#recco .wrap article.corp .corp-container {
+  flex-direction: column-reverse;
+  text-align: center;
+  gap: 10px;
+  color: white;
+}
+#recco .wrap article.corp .corp-container h3 {
+  line-height: 1.3;
+  font-size: 50px;
+  font-weight: 200;
+}
+#recco .wrap article.corp .corp-container h4 {
+  font-size: 17px;
+}
+#recco .wrap article.corp a {
+  position: relative;
+  color: white;
+}
+#recco .wrap article.corp a.watchmore img{
+  width: 45px;
+  height: 45px;
+}
