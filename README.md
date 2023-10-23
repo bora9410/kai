@@ -27,7 +27,7 @@
 - WAVE (접근성 검사기)
   
 ## 작업페이지
-- Main index
+Main index
   
 ## 작업기간
 8시간
