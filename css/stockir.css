@@ -5,7 +5,7 @@
   max-width: 1200px;
 }
 #stockir .wrap h2 {
-  visibility: hidden;
+  
 }
 #stockir .wrap article {
   width: calc(100% / 2);
